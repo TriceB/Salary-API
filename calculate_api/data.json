@@ -1,0 +1,19 @@
+[
+
+  {
+    "job_title": "Frontend Developer",
+    "salary": 100000,
+    "location": "Atlanta, GA"
+  },
+  {
+    "job_title": "Backend Developer",
+    "salary": 100000,
+    "location": "Charlotte, NC"
+  },
+  {
+    "job_title": "Database Developer",
+    "salary": 100000,
+    "location": "NY, NY"
+  }
+
+]

@@ -1,0 +1,30 @@
+Profession: 1
+Years of Experience: 2
+List of Coding Languages: ['HTML', ' CSS', ' JavaScript', ' Python']
+List of Design Tools: 
+Date of Birth: 08/01/1990
+Full Name: MonTrice Brightmon
+Age: 30
+Country: US
+State: TX
+Years of Education: 2
+Profession: 1
+Years of Experience: 2
+List of Coding Languages: ['HTML', ' CSS', ' JavaScript', ' Python']
+List of Design Tools: 
+Date of Birth: 08/01/1990
+Full Name: MonTrice Brightmon
+Age: 30
+Country: US
+State: TX
+Years of Education: 2
+Profession: 1
+Years of Experience: 2
+List of Coding Languages: ['HTML', ' CSS', ' JavaScript', ' Python']
+List of Design Tools: 
+Date of Birth: 08/01/1990
+Full Name: MonTrice Brightmon
+Age: 30
+Country: US
+State: TX
+Years of Education: 2
