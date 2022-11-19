@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from calculate_api.utilities import calculator
+from utilities import calculator
 import json
 
 app = Flask(__name__)   # activate the Flask application / instantiate the Flask object
@@ -10,7 +10,7 @@ def hello_world():
     return '<h1><b>Hello, Tribe!</b></h1>'
 
 
-@app.route('/')
+@app.route('/', methods=["GET"])
 def candidate_form():
     return render_template("index.html")
 
@@ -31,7 +31,7 @@ def open_jobs():
     return render_template("result.html", message=result_message)
 
 
-@app.route("/calculate_salary", methods=["POST"])
+@app.route("/calculate_salary", methods=["GET", "POST"])
 def calculate_salary():
     # capture the API request
     if request.method == "POST":
@@ -88,3 +88,10 @@ def calculate_salary():
         return render_template("result.html", message=final_message)
     else:   # if a GET request is attempted
         return "Please submit a POST request"
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+    app.jinja_env.auto_reload = True
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
+

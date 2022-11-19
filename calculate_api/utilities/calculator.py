@@ -60,7 +60,7 @@ def calculate_expected_salary(number_of_experience_years, user_information, numb
         # for state in users_info:
         for state in expected_salaries:
             salary = expected_salaries[state]
-            result_message = result_message + "Your expected Salary living in " + state + " could have been " + str(salary) + ". " + "\n"
+            result_message = result_message + "Your expected Salary living in " + state + " could have been $" + str(salary) + ". " + "\n"
             # print("Your expected Salary living in " + state + " could have been " + str(salary))
 
         result_message = result_message + "Expect $" + str(new_expected_salary) + " for your level of experience." + "\n"
