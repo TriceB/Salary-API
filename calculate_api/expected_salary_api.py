@@ -91,7 +91,7 @@ def calculate_salary():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
     app.jinja_env.auto_reload = True
     app.config['TEMPLATES_AUTO_RELOAD'] = True
 
