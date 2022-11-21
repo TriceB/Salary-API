@@ -1,1 +1,1 @@
-web: python expected_salary_api.py
+web: python expected_salary_api.py --host=0.0.0.0 --port=${PORT:-5000}
